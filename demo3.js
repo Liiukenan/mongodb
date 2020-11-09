@@ -25,8 +25,13 @@ var db=connect('log')
 // job 不等于 Game的值则添加
 // db.workmate.update({name:"meizi",name:{$ne:'kenan'}},{$set:{name:'meimei'}},{multi:true})
 
+// $addToset
+// db.workmate.update({name:"meimei"},{$addToSet:{interest:"girl"}},{multi:true})
+// 已有属性里，如果interest没有这个值，则添加
 
+// $each
+let interestArr=['sing','dance','code']
+db.workmate.update({name:"meimei"},{$addToset:{interest:{$each:interestArr}}})
 
-
-
+// 批量追加
 print('修改成功')

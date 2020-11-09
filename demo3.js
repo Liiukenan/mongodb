@@ -26,12 +26,30 @@ var db=connect('log')
 // db.workmate.update({name:"meizi",name:{$ne:'kenan'}},{$set:{name:'meimei'}},{multi:true})
 
 // $addToset
-// db.workmate.update({name:"meimei"},{$addToSet:{interest:"girl"}},{multi:true})
+// db.workmate.update({name:"kenan"},{$addToSet:{interest:"girl"}},{multi:true})
 // 已有属性里，如果interest没有这个值，则添加
 
 // $each
-let interestArr=['sing','dance','code']
-db.workmate.update({name:"meimei"},{$addToset:{interest:{$each:interestArr}}})
+// let interestArr=["sing","dance","code"]
+// db.workmate.update(
+//     {name:"kenan"},
+//     {$addToSet:{interest:{$each:interestArr} } }
+// )
+// 只追加不重复的
 
-// 批量追加
+
+// $pop
+// 1从末端删除
+// -1 从开端删除
+// db.workmate.update(
+//     {name:"kenan"},
+//     {$pop:{interest:-1}}
+// )
+
+
+// 数组定位修改
+// db.workmate.update(
+//     {name:"kenan"},
+//     {$set:{"interest.0":"makeLove"}}
+// )
 print('修改成功')

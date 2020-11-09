@@ -45,3 +45,16 @@
 # db.workmate.update({name:'kenan'},{$set:{name:'傻吊'}})
 
 ### 局部插入
+
+
+# db.workmate.update({name:'kenan'},{$unset:{age:''}})
+
+### 局部删除
+
+# db.workmate.update({},{$set:{insertset:[]}},{multi:true})
+
+### 全部插入
+
+
+# db.workmate.update({name:"xiaowang"},{$set:{age:20,name:"meizi"}},{upsert:true})
+### 如果没有则插入，如果有则修改

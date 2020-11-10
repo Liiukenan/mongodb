@@ -113,8 +113,20 @@ const db=connect('company')
 
 //sort 1 从小到大  -1从大到小
 
+//分页显示2  年龄从小到大
+// db.workmate.find(
+//     {},
+//     {name:true,age:true,_id:false}
+// ).limit(10).skip(10).sort({age:1})
+
+
+// limit 每页几个
+// skip 到第几页
 
 
 
-
-
+// $where(有风险，能不用就不用，加重服务器负担)
+// db.workmate.find(
+//     {$where:"this.age>30"},
+//     {name:true,age:true,_id:false}
+// )

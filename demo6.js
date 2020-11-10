@@ -13,8 +13,8 @@ const db=connect('company')
 // )
 
 
-var startDate=new Date('01/01/2018')
-db.workmate.find(
-    {"regeditTime":{$gte:startDate}},
-    {_id:false,name:true,regeditTime:true}
-)
+// var startDate=new Date('01/01/2018')
+// db.workmate.find(
+//     {"regeditTime":{$gte:startDate}},
+//     {_id:false,name:true,regeditTime:true}
+// )

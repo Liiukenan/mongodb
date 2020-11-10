@@ -9,7 +9,7 @@ var workmate1={
         skillThree:'PHP'
     },
     regeditTime:new Date(),
-    interest:[]
+    interest:['唱','跳','rap','篮球']
 }
 var workmate2={
     name:'ShengLei',
@@ -22,7 +22,7 @@ var workmate2={
         skillThree:'PPT'
     },
     regeditTime:new Date(),
-    interest:[]
+    interest:['做爱','唱']
 }
 var workmate3={
     name:'MinJie',
@@ -35,7 +35,7 @@ var workmate3={
         skillThree:'PPT'
     },
     regeditTime:new Date(),
-    interest:[]
+    interest:['哭','笑']
 }
 var workmate4={
     name:'XiaoWang',
@@ -48,7 +48,7 @@ var workmate4={
         skillThree:'PPT'
     },
     regeditTime:new Date(),
-    interest:[]
+    interest:['打飞机']
 }
 var workmate5={
     name:'LiangPeng',
@@ -60,7 +60,7 @@ var workmate5={
         skillTwo:'JavaScript',
     },
     regeditTime:new Date(),
-    interest:[]
+    interest:['跳广场舞']
 }
 var workmate6={
     name:'HouFei',
@@ -72,7 +72,7 @@ var workmate6={
         skillTwo:'JavaScript',
     },
     regeditTime:new Date(),
-    interest:[]
+    interest:['跳广场舞']
 }
 var workmate7={
     name:'LiuYan',
@@ -84,7 +84,7 @@ var workmate7={
         skillTwo:'CAD',
     },
     regeditTime:new Date(),
-    interest:[]
+    interest:['卖身','被操']
 }
 var workmate8={
     name:'DingLu',
@@ -96,7 +96,7 @@ var workmate8={
         skillTwo:'CAD',
     },
     regeditTime:new Date(),
-    interest:[]
+    interest:['哭','笑']
 }
 var workmate9={
     name:'JiaPeng',
@@ -109,7 +109,7 @@ var workmate9={
         skillThree:'PHP'
     },
     regeditTime:new Date(),
-    interest:[]
+    interest:['打飞机']
 }
 var workmate10={
     name:'LiJia',
@@ -122,7 +122,7 @@ var workmate10={
         skillThree:'PHP'
     },
     regeditTime:new Date(),
-    interest:[]
+    interest:['唱歌','画画','跳舞','打篮球','爬山','钓鱼']
 }
 var db=connect('company');
 var workmateArray=[workmate1,workmate2,workmate3,workmate4,workmate5,workmate6,workmate7,workmate8,workmate9,workmate10];

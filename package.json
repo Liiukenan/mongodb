@@ -1,0 +1,22 @@
+{
+  "name": "mongodbs",
+  "version": "1.0.0",
+  "description": "# show dbs ### 展示数据库",
+  "main": "demo1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liiukenan/mongodb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liiukenan/mongodb/issues"
+  },
+  "homepage": "https://github.com/Liiukenan/mongodb#readme",
+  "dependencies": {
+    "mongodb": "^3.6.3"
+  }
+}

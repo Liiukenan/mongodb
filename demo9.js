@@ -1,6 +1,6 @@
 const startTime=new Date().getTime();
 const db=connect('company')
-let rs=db.randomInfo.find({username:'fgaqsnj3r3'})
+let rs=db.randomInfo.find({username:'4ne0e1f9'})
 
 rs.forEach(rs => {
     printjson(rs)

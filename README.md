@@ -58,3 +58,13 @@
 
 # db.workmate.update({name:"xiaowang"},{$set:{age:20,name:"meizi"}},{upsert:true})
 ### 如果没有则插入，如果有则修改
+
+# db.shutdownServer()
+### 关闭mongodb
+
+# mongod --dbpath /usr/local/var/mongodb --logpath /usr/local/var/log/mongodb/mongo.log --fork
+### 后台运行mongodb
+
+# sudo mongod --config /usr/local/etc/mongod.conf
+### 非后台运行mongodb
+
